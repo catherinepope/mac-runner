@@ -1,0 +1,13 @@
+api:
+  auth_token: 88883ed1f521b5e6c8df05e1fcfd49d05e7fa41023034b809634f943967697352c6439bf13e517d8
+  # On server, set url to the hostname of your server installation. For example,
+  # url: https://circleci.example.com
+
+runner:
+  name: mac
+  command_prefix : ["sudo", "-niHu", "catherinepope", "--"]
+  working_directory: /var/opt/circleci/workdir
+  cleanup_working_directory: true
+
+logging:
+  file: /Library/Logs/com.circleci.runner.log
