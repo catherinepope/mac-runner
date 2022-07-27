@@ -8,4 +8,4 @@ jobs:
     machine: true
     resource_class: catherinepope/mac
     steps:
-      - run: echo "Hi I'm hopefully running on Runners!"
+      - run: echo "This Pope is on Runners!"
